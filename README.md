@@ -1,105 +1,36 @@
-# 🧠 PrepIQ – AI Study Companion
+<p align="center">
+  <a href="https://tailwindcss.com" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg">
+      <img alt="Tailwind CSS" src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg" width="350" height="70" style="max-width: 100%;">
+    </picture>
+  </a>
+</p>
 
-An AI-powered web application that converts study notes into interactive multiple-choice quizzes. Users can paste lecture notes, textbook content, or any study material, choose the difficulty level and number of questions, and instantly generate AI-based quizzes.
+<p align="center">
+  A utility-first CSS framework for rapidly building custom user interfaces.
+</p>
 
----
-
-## 🌍 Live Demo
-
-**Website:** (https://prepiq-ai-study-quiz-ouf2.bolt.host/)
-
----
-
-## 📌 Problem Statement
-
-Students and teachers spend a lot of time creating quizzes manually. PrepIQ solves this problem by automatically generating quizzes from study material using Artificial Intelligence, making learning faster and more interactive.
-
----
-
-## ✨ Features
-
-- 🤖 AI-powered quiz generation
-- 📄 Generate quizzes from any study notes or text
-- 🎯 Select Easy, Medium, or Hard difficulty
-- 🔢 Choose 3, 5, or 10 quiz questions
-- 📚 Built-in sample notes for quick testing
-- 📱 Responsive design for desktop and mobile
-- ⚡ Fast and user-friendly interface
-- 🌐 Fully deployed and functional web application
+<p align="center">
+    <a href="https://github.com/tailwindlabs/tailwindcss/actions"><img src="https://img.shields.io/github/actions/workflow/status/tailwindlabs/tailwindcss/ci.yml?branch=main" alt="Build Status"></a>
+    <a href="https://www.npmjs.com/package/tailwindcss"><img src="https://img.shields.io/npm/dt/tailwindcss.svg" alt="Total Downloads"></a>
+    <a href="https://github.com/tailwindlabs/tailwindcss/releases"><img src="https://img.shields.io/npm/v/tailwindcss.svg" alt="Latest Release"></a>
+    <a href="https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
+</p>
 
 ---
 
-## 🤖 AI Feature
+## Documentation
 
-PrepIQ uses **Google Gemini AI** to analyze user-provided study material and generate relevant multiple-choice questions.
+For full documentation, visit [tailwindcss.com](https://tailwindcss.com).
 
+## Community
 
-## 🛠 Technologies Used
+For help, discussion about best practices, or feature ideas:
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Google Gemini API
-- Git & GitHub
-- Vercel
+[Discuss Tailwind CSS on GitHub](https://github.com/tailwindlabs/tailwindcss/discussions)
 
----
+## Contributing
 
-## 📸 Screenshots
-
-Add at least three screenshots:
-
-1. Home Page
-2. Quiz Generation Interface
-3. Generated AI Quiz
-
----
-
-## 🚀 How to Run
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
-npm install
-```
-
-Create a `.env.local` file and add your Gemini API key:
-
-```
-GEMINI_API_KEY=YOUR_API_KEY
-```
-
-Run the project:
-
-```bash
-npm run dev
-```
-
-Open **http://localhost:3000** in your browser.
-
----
-
-## 🎯 Conclusion
-
-PrepIQ is a complete AI-powered study assistant that helps students learn more effectively by instantly generating quizzes from their own study material. It provides a simple, fast, and interactive way to practice and improve understanding.
-
----
-
-## 👩‍💻 Developer
-
-**Noor Ul Ain**  
-BS Computer Science  
-Final AI Project – 2026
----
-
-## 📁 Project Structure
-
-```text
-├── app/                  # Next.js App Router pages and API routes
-├── components/           # Reusable UI components (Quiz, Tutor, Dashboard)
-├── hooks/                # Custom React hooks
-├── lib/                  # Utility functions and AI helper scripts
-├── next.config.js        # Next.js configuration
-├── tailwind.config.ts    # Tailwind CSS configuration
-└── package.json          # Project dependencies and build scripts
+If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindlabs/tailwindcss/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.
