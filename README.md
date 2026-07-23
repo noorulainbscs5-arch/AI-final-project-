@@ -1,30 +1,103 @@
-# 🎓 PrepIQ - AI-Powered Study Companion & Quiz Generator
+# 🧠 PrepIQ – AI Study Companion
 
-**PrepIQ** is an AI-driven study platform designed to transform lecture notes, slides, and study materials into instant, personalized multiple-choice quizzes with detailed answer explanations and an interactive AI study tutor.
-
----
-
-## 🚀 Live Demo
-
-🔗 **Live Application URL:** https://prepiq-ai-study-quiz-ouf2.bolt.host
+An AI-powered web application that converts study notes into interactive multiple-choice quizzes. Users can paste lecture notes, textbook content, or any study material, choose the difficulty level and number of questions, and instantly generate AI-based quizzes.
 
 ---
 
-## ✨ Key Features
+## 🌍 Live Demo
 
-* **Instant Quiz Generation:** Paste study notes or upload materials to generate tailored multiple-choice questions automatically.
-* **In-Depth Explanations:** Get detailed step-by-step reasoning for every answer option (correct and incorrect).
-* **AI Study Tutor:** Ask targeted follow-up questions about any concept using an integrated AI assistant.
-* **Interactive Dashboard:** Track quiz performance, study progress, and key metrics in real time.
+**Website:** https://YOUR-LIVE-URL.vercel.app
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 📌 Problem Statement
 
-* **Framework:** Next.js (App Router), React, TypeScript
-* **Styling & UI:** Tailwind CSS, PostCSS
-* **Deployment & Hosting:** Vercel / Bolt Live
+Students and teachers spend a lot of time creating quizzes manually. PrepIQ solves this problem by automatically generating quizzes from study material using Artificial Intelligence, making learning faster and more interactive.
 
+---
+
+## ✨ Features
+
+- 🤖 AI-powered quiz generation
+- 📄 Generate quizzes from any study notes or text
+- 🎯 Select Easy, Medium, or Hard difficulty
+- 🔢 Choose 3, 5, or 10 quiz questions
+- 📚 Built-in sample notes for quick testing
+- 📱 Responsive design for desktop and mobile
+- ⚡ Fast and user-friendly interface
+- 🌐 Fully deployed and functional web application
+
+---
+
+## 🤖 AI Feature
+
+PrepIQ uses **Google Gemini AI** to analyze user-provided study material and generate relevant multiple-choice questions.
+
+### AI Prompt
+
+```
+You are an AI quiz generator. Read the user's study material carefully and create clear multiple-choice questions with four options and one correct answer. Generate the exact number of questions requested while keeping the language simple and relevant to the provided content.
+```
+
+---
+
+## 🛠 Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Google Gemini API
+- Git & GitHub
+- Vercel
+
+---
+
+## 📸 Screenshots
+
+Add at least three screenshots:
+
+1. Home Page
+2. Quiz Generation Interface
+3. Generated AI Quiz
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd YOUR_REPOSITORY
+npm install
+```
+
+Create a `.env.local` file and add your Gemini API key:
+
+```
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Open **http://localhost:3000** in your browser.
+
+---
+
+## 🎯 Conclusion
+
+PrepIQ is a complete AI-powered study assistant that helps students learn more effectively by instantly generating quizzes from their own study material. It provides a simple, fast, and interactive way to practice and improve understanding.
+
+---
+
+## 👩‍💻 Developer
+
+**Noor Ul Ain**  
+BS Computer Science  
+Final AI Project – 2026
 ---
 
 ## 📁 Project Structure
