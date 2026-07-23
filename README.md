@@ -6,7 +6,7 @@ An AI-powered web application that converts study notes into interactive multipl
 
 ## 🌍 Live Demo
 
-**Website:** [https://YOUR-LIVE-URL.vercel.app](https://prepiq-ai-study-quiz-ouf2.bolt.host/)
+**Website:** (https://prepiq-ai-study-quiz-ouf2.bolt.host/)
 
 ---
 
