@@ -33,13 +33,6 @@ Students and teachers spend a lot of time creating quizzes manually. PrepIQ solv
 
 PrepIQ uses **Google Gemini AI** to analyze user-provided study material and generate relevant multiple-choice questions.
 
-### AI Prompt
-
-```
-You are an AI quiz generator. Read the user's study material carefully and create clear multiple-choice questions with four options and one correct answer. Generate the exact number of questions requested while keeping the language simple and relevant to the provided content.
-```
-
----
 
 ## 🛠 Technologies Used
 
